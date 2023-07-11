@@ -1,0 +1,11 @@
+.filterByPrice {
+  font-size: 1.3vmax;
+  padding-bottom: 3%;
+}
+.inputLabel {
+  padding-bottom: 1%;
+}
+input {
+  height: 1.1vmax;
+  width: 1.1vmax;
+}

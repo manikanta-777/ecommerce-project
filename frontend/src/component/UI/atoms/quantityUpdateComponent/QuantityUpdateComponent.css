@@ -1,0 +1,40 @@
+.quantityButton > button:hover {
+  background-color: #000048;
+  color: #fff;
+}
+.quantityButton > input {
+  border: 1px solid gray;
+  width: 2vmax;
+  height: 2vmax;
+  padding: 0.6vmax;
+  padding-bottom: 0.25vmax;
+  text-align: center;
+}
+
+.quantityButton > button {
+  border: 1px solid gray;
+  font-size: 1.5vmax;
+  background-color: gray;
+  width: 3vmax;
+  height: 3vmax;
+  padding: 0.5vmax;
+  cursor: pointer;
+  color: #000048;
+  transition: all 0.5s;
+}
+
+@media (max-width: 480px) {
+  .quantityButton {
+    font-size: 2vmax;
+  }
+  .quantityButton > input {
+    width: 4vmax;
+    height: 4vmax;
+    padding: 0.3vmax 0.3vmax 0.5vmax 0.3vmax;
+  }
+  .quantityButton > button {
+    font-size: 1.5vmax;
+    width: 5vmax;
+    height: 5vmax;
+  }
+}

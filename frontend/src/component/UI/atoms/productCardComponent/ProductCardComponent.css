@@ -1,0 +1,61 @@
+.card {
+  width: 15vmax;
+  color: rgb(14, 12, 12);
+  margin: 2vmax;
+  transition: all 0.5;
+  padding: 1.5vmax;
+  border: 0.5px solid #999595;
+  border-radius: 10px;
+  text-align: center;
+  cursor: pointer;
+  text-decoration: unset;
+}
+.favoriteIcon {
+  padding-left: 90%;
+}
+.card > img {
+  width: 11vmax;
+  height: 14vmax;
+  object-fit: contain;
+}
+.card > div {
+  font-size: 1.2vmax;
+  margin: 0.2vmax;
+  font-weight: bold;
+}
+.card > p {
+  font-size: 1vmax;
+  text-align: center;
+  margin: 1vmax 0.5vmax;
+  color: #000;
+}
+.card > span {
+  font-size: 1.2vmax;
+  margin: 0.5vmax;
+  color: #0808cc;
+}
+
+.card:hover {
+  box-shadow: 0 0 5px #000;
+  transform: translateY(-1vmax);
+}
+@media screen and (max-width: 480px) {
+  .card {
+    width: 35vmax;
+    margin: 3vmax;
+  }
+  .card > img {
+    width: 15vmax;
+    height: 20vmax;
+    object-fit: contain;
+  }
+  .card > div {
+    font-size: 1.8vmax;
+  }
+  .card > p {
+    font-size: 2vmax;
+  }
+  .card > span {
+    font-size: 2vmax;
+  }
+}

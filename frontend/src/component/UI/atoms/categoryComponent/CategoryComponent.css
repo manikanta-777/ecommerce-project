@@ -1,0 +1,10 @@
+.categories {
+  display: flex;
+  flex-direction: row;
+}
+
+@media (max-width: 480px) {
+  .categories {
+    flex-direction: column;
+  }
+}

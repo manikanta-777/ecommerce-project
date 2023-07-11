@@ -1,0 +1,24 @@
+.productCart {
+  font-size: 1.1vmax;
+  border: 1px solid #000048;
+  cursor: pointer;
+  color: #fff;
+  transition: all 0.5s;
+  background-color: #000048;
+  border-radius: 5px;
+  padding: 0.75vmax 10vmax;
+  margin-left: 1vmax;
+  outline: none;
+  transition: 0.3s;
+  display: flex;
+}
+.productCart:hover {
+  background-color: rgb(68, 110, 248);
+  color: #000048;
+}
+@media (max-width: 480px) {
+  .productCart {
+    padding: 1vmax 8vmax;
+    font-size: 2vmax;
+  }
+}

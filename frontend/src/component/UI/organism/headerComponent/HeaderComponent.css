@@ -1,0 +1,63 @@
+.logoIconComponent {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+  color: #000048;
+}
+.logo {
+  height: 6vmax;
+  width: 34vmax;
+}
+.search {
+  order: 0;
+  padding-left: 15%;
+  padding-right: 0%;
+}
+.iconsClass {
+  display: flex;
+  align-items: center;
+  padding-left: 0%;
+}
+.MenuClass {
+  display: none;
+}
+.NavbarComponentClass {
+  display: block;
+}
+.AccountShopping {
+  display: flex;
+  justify-content: stretch;
+}
+
+@media (max-width: 480px) {
+  .header {
+    width: 100%;
+  }
+  .logoIconComponent {
+    justify-content: flex-start;
+  }
+  .logo {
+    height: 8vmax;
+    width: 45vmax;
+  }
+
+  .search {
+    order: 3;
+    padding-bottom: 1%;
+    padding-left: 2%;
+  }
+  .iconsClass {
+    padding-left: 4%;
+  }
+  .MenuClass {
+    display: block;
+    margin-left: 25vmax;
+  }
+  .header {
+    display: flex;
+  }
+}

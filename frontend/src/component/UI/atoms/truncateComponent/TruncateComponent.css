@@ -1,0 +1,12 @@
+.truncate {
+  font-size: 1.1vmax;
+}
+.seeMoreLess {
+  color: rgb(9, 45, 209);
+  cursor: pointer;
+}
+@media (max-width: 480px) {
+  .truncate {
+    font-size: 2.2vmax;
+  }
+}

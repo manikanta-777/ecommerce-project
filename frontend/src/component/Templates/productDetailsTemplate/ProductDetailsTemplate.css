@@ -1,0 +1,14 @@
+.productDetails {
+  margin-top: 7%;
+  display: flex;
+  justify-content: space-evenly;
+  background-color: white;
+}
+@media (max-width: 480px) {
+  .productDetails {
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 35%;
+    text-align: justify;
+  }
+}

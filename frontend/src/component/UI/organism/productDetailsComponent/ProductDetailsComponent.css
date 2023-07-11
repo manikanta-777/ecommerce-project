@@ -1,0 +1,50 @@
+.details {
+  width: 38vmax;
+}
+.shipping {
+  text-align: left;
+  font-size: 1.1vmax;
+  display: flex;
+}
+.description {
+  border: 1px solid #000048;
+  width: 36vmax;
+  padding: 2%;
+  text-align: justify;
+  border-radius: 10px;
+}
+.days {
+  font-size: 1vmax;
+  display: flex;
+}
+.quantityUpdate {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.favorite {
+  color: rgb(2, 91, 207);
+  display: flex;
+}
+
+@media (max-width: 480px) {
+  .shipping {
+    font-size: 2.2vmax;
+  }
+  .details {
+    text-align: center;
+    padding: 5%;
+    width: 100%;
+  }
+  .favorite {
+    font-size: 2.2vmax;
+    text-align: left;
+  }
+  .description {
+    width: 96%;
+  }
+  .days {
+    font-size: 2.2vmax;
+    text-align: left;
+  }
+}

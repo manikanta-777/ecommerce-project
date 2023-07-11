@@ -1,0 +1,17 @@
+.toolbar {
+  border-top: 2px solid #000048;
+  border-bottom: 2px solid #000048;
+  padding-right: 60%;
+}
+.hamburgerMenu {
+  display: none;
+}
+
+@media (max-width: 480px) {
+  .hamburgerMenu {
+    display: block;
+  }
+  .toolbar {
+    display: none;
+  }
+}

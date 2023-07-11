@@ -1,0 +1,29 @@
+.filterBox {
+  position: absolute;
+  margin-top: 12%;
+  width: 21.5vmax;
+  margin-left: 3%;
+  padding: 1%;
+  display: block;
+}
+
+.Filters {
+  font-size: 1.5vmax;
+  font-weight: bold;
+}
+.ruler {
+  border: 1px solid #cfd2d3;
+}
+
+@media screen and (max-width: 480px) {
+  .filterBox {
+    width: 75%;
+    margin-top: 50%;
+    background-color: #fff;
+    padding: 10%;
+    padding-top: 0%;
+  }
+  .Filters {
+    font-size: 2.5vmax;
+  }
+}

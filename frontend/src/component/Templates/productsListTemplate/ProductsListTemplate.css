@@ -1,0 +1,12 @@
+.tuneIcon {
+  position: absolute;
+}
+.filter {
+  background-color: blueviolet;
+}
+@media screen and (max-width: 480px) {
+  .tuneIcon {
+    margin-top: 40%;
+    margin-left: 3%;
+  }
+}

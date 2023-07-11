@@ -1,0 +1,43 @@
+.container {
+  width: 80%;
+  position: absolute;
+  margin-top: 10%;
+  margin-right: 3%;
+  margin-left: 15%;
+}
+
+.products {
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+  margin-left: 11%;
+  margin-right: 0%;
+  margin-top: 2%;
+}
+
+.productsCount {
+  padding-left: 58%;
+  position: fixed;
+  font-size: 1.3vmax;
+  font-weight: bold;
+  margin-top: 2%;
+}
+.noProducts {
+  font-size: 4vmax;
+  color: rgb(187, 42, 114);
+  text-align: center;
+}
+@media screen and (max-width: 480px) {
+  .container {
+    margin-top: 40%;
+    margin-left: 7%;
+  }
+  .productsCount {
+    padding-left: 63%;
+    font-size: 1.5vmax;
+    margin-top: 5%;
+  }
+  .products {
+    margin-top: 7%;
+  }
+}
